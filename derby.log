@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Tue Apr 17 08:49:13 COT 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-d3dd-d364-000011a2c518 
-on database directory memory:F:\SRC\MISC\JAVA\Spring\randomega-web\testdb with class loader sun.misc.Launcher$AppClassLoader@6d06d69c 
-Loaded from file:/C:/Users/rcruzh/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+Thu Aug 16 22:21:55 COT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0165-45e7-5c78-000011990380 
+on database directory memory:/run/media/rodcruzh/OS/Users/Asus-Pc/Documents/OS/OS/SRC/WEB/randomega/randomega-web/testdb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/home/rodcruzh/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_162-b12
-user.dir=F:\SRC\MISC\JAVA\Spring\randomega-web
-os.name=Windows 10
+java.runtime.version=1.8.0_171-b11
+user.dir=/run/media/rodcruzh/OS/Users/Asus-Pc/Documents/OS/OS/SRC/WEB/randomega/randomega-web
+os.name=Linux
 os.arch=amd64
-os.version=10.0
+os.version=4.17.12-100.fc27.x86_64
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
