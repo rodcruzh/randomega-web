@@ -2,15 +2,28 @@ package com.randomega.web.entity;
 
 import java.math.BigInteger;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "blog_category")
 public class BlogCategory {
 
 	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_blog_category")
 	private BigInteger id;
+
+	@Column
 	private String name;
+
+	@Column
+	private String description;
+
+	@Column
+	private String acronym;
+
+	@Column
+	private Boolean active;
 
 	public BlogCategory() {
 		super();
@@ -41,6 +54,18 @@ public class BlogCategory {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public void setAcronym(String acronym) {
+		this.acronym = acronym;
+	}
+
+	public void setActive(Boolean active) {
+		this.active = active;
 	}
 
 }
